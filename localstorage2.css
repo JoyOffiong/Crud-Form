@@ -1,0 +1,62 @@
+
+.form-wrap{
+    margin: 30px auto;
+    width: 50%;
+    background-color: hsl(231, 14%, 18%);
+    padding: 30px;
+  
+  }
+  .form{
+      text-align: center;
+  }
+  .form h3{
+    color: white;
+  }
+  #submit{
+    width: 20%;
+    border: none;
+
+  }
+  
+input{
+     display: inline-block;
+     margin-bottom: 20px;
+     padding:12px;
+      width: 50%;
+
+      border: none;
+      border-radius: 5px;
+  }
+
+  h3{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+button{
+      border: none;
+      border-radius: 2px;
+      color: white;
+      font-weight: bold;
+      font-size: large;
+      padding: 15px
+  }
+
+main{
+ background-color:  hsl(52, 53%, 85%);
+ border: 2px solid  hsl(231, 14%, 18%);
+ padding: 10px;
+ margin: 20px;
+  }
+
+  #output{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+@media(max-width: 1200px){
+    form-wrap{
+      margin: 30px auto;
+      width: 80%;    
+    }
+}
